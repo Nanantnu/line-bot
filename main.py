@@ -1,4 +1,8 @@
 import json
+import os
+import sys
+from argparse import ArgumentParser
+
 from flask import Flask, request, abort
 from linebot import (
     LineBotApi, WebhookHandler
@@ -6,13 +10,24 @@ from linebot import (
 from linebot.exceptions import (
     InvalidSignatureError
 )
-from linebot.models import *
-
+from linebot.models import (
+    MessageEvent, TextMessage, TextSendMessage,
+)
 
 app = Flask(__name__)
-# LINE BOT info
-line_bot_api = LineBotApi('hbhqR1idxfnPYWmfiWyg+oIaHlTf7mXVKZ2lkGIjlW8UClGYwydliL+XUwluTb6kaqRIJzWEqIkib/HiNCUMkrvFnk/SzSAsl7I9ZYCKvYo6+xXMmEQfYNTsqmlyiILRU59ecXikW+0ALrRZpQzcawdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('0318c8d8f7210c34e298b5a5acfca1a9')
+
+# get channel_secret and channel_access_token from your environment variable
+channel_secret = os.getenv('LINE_CHANNEL_SECRET', None)
+channel_access_token = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
+if channel_secret is None:
+    print('Specify LINE_CHANNEL_SECRET as environment variable.')
+    sys.exit(1)
+if channel_access_token is None:
+    print('Specify LINE_CHANNEL_ACCESS_TOKEN as environment variable.')
+    sys.exit(1)
+
+line_bot_api = LineBotApi(channel_access_token)
+handler = WebhookHandler(channel_secret)
 
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -200,7 +215,7 @@ def handle_message(event):
             TextSendMessage(text="止咳藥水種類繁多，部分止咳藥水含有阿片類止咳成分，如可待因(codeine)，長期服用有成癮的可能，但一般情形下，遵照醫師指示與標示的用法用量，正確使用是安全的！")
         )
 
-import os
+
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 80))
     app.run(host='0.0.0.0', port=port)
