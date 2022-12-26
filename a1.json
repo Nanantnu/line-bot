@@ -1,0 +1,37 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "電子菸能幫助戒菸嗎？"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "可以",
+            "text": "可以！"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "不可以/不知道",
+            "text": "不可以/不知道"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

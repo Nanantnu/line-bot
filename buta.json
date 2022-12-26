@@ -1,0 +1,46 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "關於紙菸/電子菸的常見問題"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "電子煙能幫助戒菸嗎?",
+            "text": "電子煙能幫助戒菸嗎?"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "紙菸和電子煙哪個比較無害?",
+            "text": "紙菸和電子煙哪個比較無害?"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "有人說電子煙是「維他命棒」，這是有益健康的新科技嗎?",
+            "text": "有人說電子煙是「維他命棒」，這是有益健康的新科技嗎?"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

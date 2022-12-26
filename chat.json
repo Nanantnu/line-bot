@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "size": "kilo",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "來聊聊天吧～",
+        "weight": "bold",
+        "size": "xl"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xs",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "日常",
+          "text": "安安~你最近在忙什麼呢?"
+        },
+        "margin": "xs",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none",
+        "offsetEnd": "none"
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "電子煙",
+          "text": "最近常看到關於電子煙的討論，你有聽過電子煙比紙菸安全的說法嗎?"
+        },
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "肌肉酸痛",
+          "text": "昨天去爬山，肌肉好痠痛啊～你也有肌肉痠痛的經驗嗎？"
+        },
+        "margin": "xs",
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "健身",
+          "text": "你這禮拜的健身課表跑完了嗎？"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "甜點",
+          "text": "我又發現好吃的甜點了！你也是一吃到甜點就會很開心嗎？"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "失眠",
+          "text": "最近運動後反而睡不好，你也有這種困擾嗎？"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "壓力大",
+          "text": "最近工作壓力大，經常失眠，你也有這種困擾嗎？"
+        },
+        "margin": "xs",
+        "height": "sm"
+      }
+    ],
+    "flex": 0,
+    "margin": "xs"
+  }
+}

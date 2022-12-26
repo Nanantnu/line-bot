@@ -1,0 +1,55 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "紙菸和電子煙哪個比較無害?"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "不知道",
+            "text": "不知道耶"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "紙菸",
+            "text": "紙菸"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "電子菸",
+            "text": "電子菸"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "一樣有害！",
+            "text": "一樣有害！"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

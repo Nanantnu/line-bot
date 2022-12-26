@@ -1,0 +1,39 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "更多關於非法藥物的問題( •̀ .̫ •́ )✧",
+          "weight": "bold",
+          "align": "center"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "一、為什麼要使用非法藥物",
+            "text": "為什麼就算知道成癮藥物有害，還是有人要使用呢?"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "二、吸毒對健康造成的影響",
+            "text": "吸毒對健康造成的影響是終生的嗎？"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

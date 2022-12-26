@@ -1,0 +1,64 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "尼古丁是種容易上癮的化學物質，",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "而電子煙含有尼古丁，"
+          },
+          {
+            "type": "text",
+            "text": "所以使用電子煙是無法幫助戒菸的。"
+          },
+          {
+            "type": "text",
+            "text": "想要戒菸的話要尋求專業醫療幫助→"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "專業戒治資源",
+            "align": "center",
+            "weight": "bold"
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "點擊前往",
+              "uri": "https://ttc.hpa.gov.tw/Web/Agency.aspx",
+              "altUri": {
+                "desktop": "https://ttc.hpa.gov.tw/Web/Agency.aspx"
+              }
+            },
+            "height": "sm"
+          }
+        ]
+      }
+    }
+  ]
+}

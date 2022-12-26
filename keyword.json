@@ -1,0 +1,63 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "關鍵字",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "成癮/非法藥物/上癮",
+            "text": "成癮/非法藥物/上癮"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "吃藥禁忌/吃藥/用藥/正確用藥",
+            "text": "吃藥禁忌/吃藥/用藥/正確用藥"
+          },
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "運動痠痛/肌肉痠痛/止痛/緩解疼痛",
+            "text": "運動痠痛/肌肉痠痛/止痛/緩解疼痛"
+          },
+          "margin": "xs"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }

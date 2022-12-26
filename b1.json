@@ -1,0 +1,54 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "毒品依其成癮性、濫用性及對社會的"
+            },
+            {
+              "type": "text",
+              "text": "危害性，分為一到四級。"
+            },
+            {
+              "type": "text",
+              "text": "第一級的毒品的危害最大，罰則也是"
+            },
+            {
+              "type": "text",
+              "text": "最重的。"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "毒品的定義",
+              "weight": "bold",
+              "align": "center"
+            }
+          ]
+        },
+        "hero": {
+          "type": "image",
+          "aspectMode": "fit",
+          "align": "center",
+          "url": "https://i.imgur.com/F6FNzHc.jpg",
+          "margin": "none",
+          "size": "full",
+          "aspectRatio": "4:3"
+        }
+      }
+    ]
+  }

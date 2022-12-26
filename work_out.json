@@ -1,0 +1,63 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "你這禮拜的健身課表跑完了嗎？",
+          "weight": "bold",
+          "size": "md"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "當然啦",
+            "text": "當然啦，準時準點完成"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "偷懶",
+            "text": "再讓我偷懶一下"
+          },
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "休息一下",
+            "text": "上次的痠痛還沒消耶"
+          },
+          "margin": "xs"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }

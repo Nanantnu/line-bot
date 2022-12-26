@@ -1,0 +1,62 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "最常被問的問題大解惑( •̀ ω •́ )y",
+          "margin": "sm",
+          "size": "md",
+          "weight": "bold",
+          "style": "normal",
+          "decoration": "none",
+          "position": "relative",
+          "align": "center"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "紙菸/電子菸",
+            "text": "紙菸/電子菸"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "非法藥物分級",
+            "text": "非法藥物分級"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "使用非法藥物的危害",
+            "text": "使用非法藥物的危害"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "用藥小撇步",
+            "text": "用藥小撇步"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

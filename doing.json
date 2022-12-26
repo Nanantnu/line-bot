@@ -1,0 +1,91 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "我最近在",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "功課",
+            "text": "我都在寫功課，功課真的好多(╥﹏╥)"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "期中考",
+            "text": "在期中考地獄中"
+          },
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "期末考",
+            "text": "期末考快到了，我都在準備期末考"
+          },
+          "margin": "xs",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "社團",
+            "text": "我最近都在準備社團的活動σ(´∀｀*)"
+          },
+          "height": "sm",
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "吵架",
+            "text": "我最近和朋友吵架了QQ"
+          },
+          "height": "sm",
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "無聊",
+            "text": "我覺得最近好無聊"
+          },
+          "height": "sm",
+          "margin": "xs"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }

@@ -1,0 +1,86 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "做什麼來紓解壓力呢?",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "運動",
+            "text": "運動舒壓"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "休閒活動",
+            "text": "休閒活動"
+          },
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "閒聊",
+            "text": "我都找朋友講屁話"
+          },
+          "margin": "xs",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "吃吃喝喝",
+            "text": "我都會去吃點好吃的"
+          },
+          "height": "sm",
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "不知道",
+            "text": "我沒有什麼特別想法欸"
+          },
+          "margin": "xs",
+          "height": "sm",
+          "offsetTop": "xs",
+          "offsetBottom": "xs",
+          "offsetStart": "xs",
+          "offsetEnd": "xs"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }

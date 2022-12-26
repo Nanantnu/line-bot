@@ -1,0 +1,43 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "第四級毒品有蝴蝶片、一粒眠、安定"
+            },
+            {
+              "type": "text",
+              "text": "等，另外，有些鎮靜安眠藥也屬於第"
+            },
+            {
+              "type": "text",
+              "text": "四級管制藥品。"
+            },
+            {
+              "type": "text",
+              "text": "向右滑查看更多→",
+              "align": "center"
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "hero": {
+          "type": "image",
+          "aspectMode": "fit",
+          "align": "center",
+          "url": "https://i.imgur.com/NnF53hb.jpg",
+          "margin": "none",
+          "size": "full",
+          "aspectRatio": "3:4"
+        }
+      }
+    ]
+  }

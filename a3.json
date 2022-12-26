@@ -1,0 +1,46 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "有人說電子煙是「維他命棒」，這是有益健康的新科技嗎?"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "不是",
+          "text": "不是！"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "應該是吧",
+          "text": "應該是吧"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "不知道欸",
+          "text": "不知道欸"
+        },
+        "height": "sm"
+      }
+    ]
+  }
+}

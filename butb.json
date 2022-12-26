@@ -1,0 +1,65 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "電影有分級,你知道毒品也有分級嗎?",
+        "align": "center"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "分級的依據",
+          "text": "分級的依據"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "第一級",
+          "text": "第一級"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "第二級",
+          "text": "第二級"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "第三級",
+          "text": "第三級"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "第四級",
+          "text": "第四級"
+        },
+        "height": "sm"
+      }
+    ]
+  }
+}

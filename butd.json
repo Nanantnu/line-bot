@@ -1,0 +1,57 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "更多關於藥品的小知識(ง๑ •̀_•́)ง",
+          "weight": "bold",
+          "align": "center"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "一、錯過吃藥時間怎麼辦？",
+            "text": "錯過吃藥時間怎麼辦？"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "二、超商買不到維士比？",
+            "text": "為什麼一般超商買不到維士比、保力達B？"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "三、退熱貼有藥性嗎？",
+            "text": "退熱貼有藥性嗎？"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "四、咳嗽藥水喝多了會成癮？",
+            "text": "聽說咳嗽藥水喝多了會成癮，這是真的嗎？"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

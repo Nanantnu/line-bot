@@ -1,0 +1,62 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "壓力是不是害你睡不好呢?",
+          "weight": "bold",
+          "size": "lg"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "安眠藥",
+            "text": "對啊，我想要吃安眠藥"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "藥物",
+            "text": "對啊，不過聽說藥物會讓心情變好"
+          },
+          "margin": "xs"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "酒精",
+            "text": "對啊，聽說喝酒可以助眠，想試試"
+          },
+          "margin": "xs",
+          "height": "sm"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }

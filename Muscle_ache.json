@@ -1,0 +1,52 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "direction": "ltr",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "你也有肌肉痠痛的經驗嗎？",
+          "weight": "bold",
+          "size": "md"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "xs",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "有",
+            "text": "當然有啊，超難受的"
+          },
+          "margin": "xs",
+          "offsetTop": "none",
+          "offsetBottom": "none",
+          "offsetStart": "none",
+          "offsetEnd": "none"
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "沒有",
+            "text": "沒有欸，不知道那是什麼感覺"
+          },
+          "margin": "xs"
+        }
+      ],
+      "flex": 0,
+      "margin": "xs"
+    }
+  }
