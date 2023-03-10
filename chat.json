@@ -1,6 +1,6 @@
 {
   "type": "bubble",
-  "size": "kilo",
+  "size": "giga",
   "body": {
     "type": "box",
     "layout": "vertical",
@@ -24,7 +24,7 @@
         "height": "sm",
         "action": {
           "type": "message",
-          "label": "日常",
+          "label": "你最近在忙什麼呢?",
           "text": "安安~你最近在忙什麼呢?"
         },
         "margin": "xs",
@@ -39,7 +39,7 @@
         "height": "sm",
         "action": {
           "type": "message",
-          "label": "電子煙",
+          "label": "關於電子煙的討論",
           "text": "最近常看到關於電子煙的討論，你有聽過電子煙比紙菸安全的說法嗎?"
         },
         "margin": "xs"
@@ -48,7 +48,7 @@
         "type": "button",
         "action": {
           "type": "message",
-          "label": "肌肉酸痛",
+          "label": "你也有肌肉痠痛的經驗嗎？",
           "text": "昨天去爬山，肌肉好痠痛啊～你也有肌肉痠痛的經驗嗎？"
         },
         "margin": "xs",
@@ -58,7 +58,7 @@
         "type": "button",
         "action": {
           "type": "message",
-          "label": "健身",
+          "label": "這禮拜的健身課表跑完了嗎？",
           "text": "你這禮拜的健身課表跑完了嗎？"
         },
         "height": "sm",
@@ -68,7 +68,7 @@
         "type": "button",
         "action": {
           "type": "message",
-          "label": "甜點",
+          "label": "你也是一吃到甜點就會很開心嗎？",
           "text": "我又發現好吃的甜點了！你也是一吃到甜點就會很開心嗎？"
         },
         "height": "sm",
@@ -78,7 +78,7 @@
         "type": "button",
         "action": {
           "type": "message",
-          "label": "失眠",
+          "label": "運動後反而睡不好",
           "text": "最近運動後反而睡不好，你也有這種困擾嗎？"
         },
         "height": "sm",
@@ -88,11 +88,81 @@
         "type": "button",
         "action": {
           "type": "message",
-          "label": "壓力大",
+          "label": "工作壓力大，經常失眠",
           "text": "最近工作壓力大，經常失眠，你也有這種困擾嗎？"
         },
         "margin": "xs",
         "height": "sm"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "吃火鍋或是吃熱炒",
+          "text": "最近天氣好冷，是不是都準備要跟親朋好友聚餐吃火鍋或是吃熱炒呢！"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "你有試過做瑜珈嗎?",
+          "text": "我最近在努力養成每天做瑜珈的習慣，你有試過做瑜珈嗎?"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "甜點會加點酒來增加風味",
+          "text": "最近放假都會自己做甜點來吃耶對了你知道有些甜點會加點酒來增加風味嗎?"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "「大人系甜點」",
+          "text": "最近很多網紅分享「大人系甜點」，你有聽過加了酒的大人系甜點嗎?"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "假日去酒吧聚會放鬆",
+          "text": "疫情趨緩，越來越多人會趁假日去酒吧與朋友聚會放鬆心情，你這周末有什麼計畫了嗎？"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "糖果與毒品",
+          "text": "我超愛吃糖果，但你聽說過吃糖果也可能落入新興毒品陷阱嗎?"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "新興毒品越來越猖獗了",
+          "text": "最近新聞看到近年來新興毒品越來越猖獗了!我查了一些資訊想分享給你～"
+        },
+        "height": "sm",
+        "margin": "xs"
       }
     ],
     "flex": 0,
