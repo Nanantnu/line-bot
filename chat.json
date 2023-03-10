@@ -108,6 +108,16 @@
         "type": "button",
         "action": {
           "type": "message",
+          "label": "天氣不好心情也變憂鬱了",
+          "text": "最近天氣不好一直下雨，不僅不能外出運動，心情也變憂鬱了呢，你也有相同的困擾嗎？"
+        },
+        "height": "sm",
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
           "label": "你有試過做瑜珈嗎?",
           "text": "我最近在努力養成每天做瑜珈的習慣，你有試過做瑜珈嗎?"
         },
