@@ -1,0 +1,63 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "direction": "ltr",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "吃藥禁忌/吃藥/用藥/正確用藥",
+        "weight": "bold",
+        "size": "lg"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "xs",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "中藥西藥可以一起用嗎?",
+          "text": "中藥西藥可以一起用嗎?"
+        },
+        "margin": "xs",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetStart": "none",
+        "offsetEnd": "none"
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "吃藥有哪些禁忌？",
+          "text": "吃藥有哪些禁忌？"
+        },
+        "margin": "xs"
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "吃藥可以馬上躺平休息嗎?",
+          "text": "吃藥可以馬上躺平休息嗎?"
+        },
+        "margin": "xs"
+      }
+    ],
+    "flex": 0,
+    "margin": "xs"
+  }
+}
