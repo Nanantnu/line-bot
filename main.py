@@ -52,8 +52,7 @@ def handle_message(event):
         line_bot_api.reply_message(reply_token, FlexSendMessage('Chat',FlexMessage))
 ##---------------------------------------------------------------------------------------------------------------------------        
     elif '止痛' in message:
-        line_bot_api.reply_message(reply_token,TextSendMessage(text="偵測到關鍵字!")
-	    FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
+	FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
     elif '緩解疼痛' in message:
         FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
