@@ -53,40 +53,40 @@ def handle_message(event):
 ##---------------------------------------------------------------------------------------------------------------------------        
     elif '止痛' in message:
 	FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('止痛',FlexMessage))
     elif '緩解疼痛' in message:
         FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('緩解疼痛',FlexMessage))
     elif '運動痠痛' in message:
         FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('運動痠痛',FlexMessage))
     elif '肌肉痠痛' in message:
         FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('肌肉痠痛',FlexMessage))
 
 
     elif '成癮' in message:
         FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('成癮',FlexMessage))
     elif '非法藥物' in message:
         FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('非法藥物',FlexMessage))
     elif '上癮' in message:
         FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('上癮',FlexMessage))
 
     elif '吃藥禁忌' in message:
         FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('吃藥禁忌',FlexMessage))
     elif '吃藥' in message:
         FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('吃藥',FlexMessage))
     elif '用藥' in message:
         FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('用藥',FlexMessage))
     elif '正確用藥' in message:
         FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+	line_bot_api.reply_message(reply_token, FlexSendMessage('正確用藥',FlexMessage))
     
     
     
