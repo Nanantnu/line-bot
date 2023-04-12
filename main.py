@@ -50,7 +50,52 @@ def handle_message(event):
     if(message == 'Chat'):
         FlexMessage = json.load(open('chat.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('Chat',FlexMessage))
+##---------------------------------------------------------------------------------------------------------------------------        
+    elif '止痛' in message:
+        line_bot_api.reply_message(reply_token,TextSendMessage(text="偵測到關鍵字!")
+	    FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '緩解疼痛' in message:
+        FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '運動痠痛' in message:
+        FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '肌肉痠痛' in message:
+        FlexMessage = json.load(open('keyword_hurt.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
 
+
+    elif '成癮' in message:
+        FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '非法藥物' in message:
+        FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '上癮' in message:
+        FlexMessage = json.load(open('keyword_addict.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+
+    elif '吃藥禁忌' in message:
+        FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '吃藥' in message:
+        FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '用藥' in message:
+        FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    elif '正確用藥' in message:
+        FlexMessage = json.load(open('keyword_medicine.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage(message,FlexMessage))
+    
+    
+    
+    
+    
+    
+ 
+##---------------------------------------------------------------------------------------------------------------------------
     elif(message == '安安~你最近在忙什麼呢?'):
         FlexMessage = json.load(open('doing.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('安安~你最近在忙什麼呢?',FlexMessage))
